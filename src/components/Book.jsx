@@ -2,7 +2,7 @@ import { Mark } from './Mark';
 
 export const Book = ({ book }) => {
   return (
-    <div className='justify-auto mt-2 ml-2 box-border flex w-2/12 flex-col border-4'>
+    <div className='justify-auto mt-2 ml-2 box-border flex w-2/12 flex-col border-4 hover: shadow-xl'>
       <div className='text-center text-xl font-bold'>{book.title}</div>
       {book.marks.length ? (
         book.marks.map((mark) => <Mark key={mark.id} mark={mark} />)

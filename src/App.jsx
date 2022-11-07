@@ -44,7 +44,7 @@ function App() {
           </button>
         </div>
       </main>
-      <footer>Copyright Kwang</footer>
+      {/* <footer>Copyright Kwang</footer> */}
     </div>
   );
 }
